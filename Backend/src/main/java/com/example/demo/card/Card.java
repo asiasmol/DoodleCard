@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.card;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

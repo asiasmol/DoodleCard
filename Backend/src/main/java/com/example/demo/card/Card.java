@@ -16,6 +16,13 @@ public class Card {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String title;
-    private String description;
+
+    @Column(name = "sender_name")
+    private String senderName;
+
+    @Column(name = "recipient_email")
+    private String recipientEmail;
+
+    @Column(name = "card_message")
+    private String cardMessage;
 }
